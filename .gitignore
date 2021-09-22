@@ -1,0 +1,16 @@
+# System-Related Files:
+.DS_Store
+Icon
+
+# Configuration files
+# from IDEs, compilers and coding tools:
+config.codekit3
+prepros.config
+prepros-6.config
+.idea/*
+
+# Frameworks, libraries & third-party code
+# handled by and external dependency manager,
+# such as npm, composer, etc:
+node_modules/*
+vendor/*
