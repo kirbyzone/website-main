@@ -1,12 +1,12 @@
 {
-  "name": "codekit-project",
+  "name": "Kirbyzone Website",
   "version": "1.0.0",
-  "description": "CodeKit created this starter package.json file. You should customize it appropriately. (If you intend to publish this project on npm, add an entry in the 'repository' field and remove the 'private' attribute, below.)",
-  "scripts": {},
-  "author": "",
-  "license": "UNLICENSED",
-  "repository": {},
+  "description": "the main website for Kirbyzone Pty Ltd",
+  "author": "Kirbyzone Pty Ltd <support@kirby.zone> (https://kirby.zone)",
+  "license": "Unlicense",
+  "repository": "github:kirbyzone/website-main",
   "private": true,
+  "scripts": {},
   "dependencies": {
     "autoprefixer": "^10.3.5",
     "tailwindcss": "^2.2.15"
