@@ -8,6 +8,7 @@
   "private": true,
   "scripts": {},
   "dependencies": {
+    "@tailwindcss/forms": "^0.3.3",
     "autoprefixer": "^10.3.5",
     "tailwindcss": "^2.2.15"
   }

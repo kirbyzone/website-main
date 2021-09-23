@@ -43,5 +43,7 @@ module.exports =
   // Packages area in CodeKit, then pass their names (and, optionally, any configuration values) here.
   // Full file paths are not necessary; CodeKit will find them.
   //
-  plugins: []
+  plugins: [
+    require('@tailwindcss/forms')
+  ]
 }
