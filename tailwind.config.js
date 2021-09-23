@@ -1,12 +1,11 @@
 // This file controls how Tailwind processes your CSS. For details, see
 // https://tailwindcss.com/docs/configuration
-
+const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports =
 {
   // Turning on the just-in-time compiler:
   mode: 'jit',
 
-  //
   // WARNING: CodeKit overwrites all properties of the "purge" object (except those below) with values from the UI.
   // Visit [Project Settings > Tools > PurgeCSS] to specify content and options. The values below can be
   // uncommented and edited if needed; all others are controlled by CodeKit.
@@ -28,7 +27,11 @@ module.exports =
         snow: "#EEEEF0",
         cream: "#F9E79F",
         wine: "#792D2F",
-        ocean: "#2E4A7D",
+        ocean: "#2E4A7D"
+      },
+      fontFamily: {
+        cursive: ["Damion", "cursive"],
+        sans: ["Fira Sans", ...defaultTheme.fontFamily.sans]
       }
     }
   },
