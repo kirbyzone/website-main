@@ -22,7 +22,15 @@ module.exports =
   // to enable the settings or customizations you need.
   //
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        metal: "#282A36",
+        snow: "#EEEEF0",
+        cream: "#F9E79F",
+        wine: "#792D2F",
+        ocean: "#2E4A7D",
+      }
+    }
   },
 
   variants: {},
