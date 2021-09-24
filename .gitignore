@@ -4,7 +4,6 @@ Icon
 
 # Configuration files
 # from IDEs, compilers and coding tools:
-config.codekit3
 prepros.config
 prepros-6.config
 .idea/*
