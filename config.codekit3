@@ -119,6 +119,14 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/source\/cookie-policy.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 2,
+      "oA" : 0,
+      "oAP" : "\/build\/cookie-policy.html",
+      "oF" : 0
+    },
     "\/source\/css\/main.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -310,7 +318,7 @@
       "oAP" : "\/build\/img\/socialmedia-preview.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-default",
       "q" : 85,
