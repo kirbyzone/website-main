@@ -7,6 +7,7 @@ Icon
 prepros.config
 prepros-6.config
 .idea/*
+.nova/*
 
 # Frameworks, libraries & third-party code
 # handled by and external dependency manager,
