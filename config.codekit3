@@ -338,6 +338,14 @@
       "oAP" : "\/build\/index.html",
       "oF" : 0
     },
+    "\/source\/privacy-policy.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 2,
+      "oA" : 0,
+      "oAP" : "\/build\/privacy-policy.html",
+      "oF" : 0
+    },
     "\/source\/snippets\/footer.kit" : {
       "cB" : 0,
       "ft" : 2048,

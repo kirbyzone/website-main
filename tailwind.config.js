@@ -38,6 +38,10 @@ module.exports =
         'spin-xslow': 'spin 16s linear infinite',
         'spin-2xslow': 'spin 30s linear infinite',
         'spin-3xslow': 'spin 60s linear infinite'
+      },
+      listStyleType: {
+        square: 'square',
+        roman: 'lower-roman'
       }
     }
   },
