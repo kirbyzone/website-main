@@ -17,6 +17,12 @@
       "oAP" : "\/build\/.gitignore",
       "oF" : 0
     },
+    "\/.nova" : {
+      "ft" : 65536,
+      "oA" : 1,
+      "oAP" : "\/build\/.nova",
+      "oF" : 0
+    },
     "\/build" : {
       "ft" : 65536,
       "oA" : 1,
@@ -2085,7 +2091,7 @@
       "ENVIRONMENT:::$NODE_ENV"
     ],
     "rollupTreeshakingEnabled" : 1,
-    "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
+    "skippedFoldersString" : "\/storage\/framework\/sessions,.nova,node_modules,_logs,logs,log,.idea,_cache,cache",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
     "tsAllowSyntheticDefaultImports" : 0,
