@@ -6,6 +6,7 @@ Icon
 # from IDEs, compilers and coding tools:
 prepros.config
 prepros-6.config
+config.codekit3
 .idea/*
 .nova/*
 
@@ -17,4 +18,4 @@ vendor/*
 
 # Exclude 'build' folder, which is automatically produced
 # as a result of running frontend compiler tools like CodeKit, PrePros, Parcel, etc.
-build/*
+# build/*
