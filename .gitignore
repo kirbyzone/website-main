@@ -19,3 +19,5 @@ vendor/*
 # Exclude 'build' folder, which is automatically produced
 # as a result of running frontend compiler tools like CodeKit, PrePros, Parcel, etc.
 # build/*
+
+config.codekit3
