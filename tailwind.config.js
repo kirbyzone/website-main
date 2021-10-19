@@ -41,7 +41,8 @@ module.exports =
       },
       listStyleType: {
         square: 'square',
-        roman: 'lower-roman'
+        roman: 'lower-roman',
+        alpha: 'lower-alpha'
       }
     }
   },
