@@ -1,0 +1,190 @@
+title: Site
+tabs:
+
+####################################
+###   PAGES TAB
+####################################
+  site_content:
+    label: Site Content
+    icon: page
+    sections:
+      pages_areas:
+        type: pages
+        headline: Main Content
+        status: all
+        layout: cards
+        size: small  
+        sortable: false
+        max: 6
+        image:
+          query: page.mainImg
+          cover: true
+          ratio: 16/9
+          back: white
+        info: "{{page.lastModified('jS M Y - g:ia')}}"
+        templates:
+          - home
+          - sessions
+          - blog
+          - global
+          - success
+          - error
+
+
+  ####################################
+  site_content:
+    label: Site Content
+    icon: page
+    columns:
+      settigns_left:
+        width: 3/4
+        sections:
+          pages_areas:
+            type: pages
+            headline: Main Content
+            status: all
+            layout: cards
+            size: small  
+            sortable: false
+            max: 6
+            image:
+              query: page.mainImg
+              cover: true
+              ratio: 16/9
+              back: black
+            info: "{{page.lastModified('jS M Y - g:ia')}}"
+            templates:
+              - home
+              - sessions
+              - blog
+              - global
+              - success
+              - error
+  
+
+      # card_right:
+      #   width: 2/4
+      #   sections:
+
+      #     landing_pages:
+      #       type: pages 
+      #       headline: Landing Pages 
+      #       status: all 
+      #       templates: landing
+      #       empty: no landing pages yet
+      #       width: 3/4
+      #       info: "{{page.lastModified('jS M Y - g:ia')}}"
+      #       image:
+      #         query: page.mainImg
+      #         cover: true
+      #         ratio: 16/9
+      #         back: white
+
+####################################
+### SEO TAB
+####################################
+  seo:
+    label: Default SEO
+    icon: code
+    columns:
+      left:
+        width: 2/3
+        sections:
+          analytics:
+            extends: sections/analytics
+            fields:
+              head_analytics:
+                label: Global Head Analytics
+                help: >
+                  Code snippets from your analytics provider - such as Facebook Pixel Code - to be added by default
+                  just before the closing <strong>&lt;/head&gt;</strong> tag of every page in your site.
+              body_analytics:
+                label: Global Body Analytics
+                help: >
+                  Code snippets from your analytics provider - such as Google Analytics - to be added by default
+                  just before the closing <strong>&lt;/body&gt;</strong> tag of every page in the site.
+              line_wellknown:
+                type: line
+          TheWellKnown:
+            type: fields
+            # extends: omz13/wellknown
+            fields:
+              WellKnownSecurity:
+                label: security.txt
+                type: textarea
+                buttons: false
+                counter: false
+                size: small
+                translate: false
+                width: 2/4
+                help: 'See <a href="https://securitytxt.org">securitytxt.org</a> for information.'
+              WellKnownHumans:
+                label: humans.txt
+                type: textarea
+                buttons: false
+                counter: false
+                size: small
+                translate: false
+                width: 2/4
+                help: See <a href="http://humanstxt.org">humanstxt.org</a> for more information
+              WellKnownDNTpolicy:
+                label: dnt-policy.txt
+                type: textarea
+                buttons: false
+                counter: false
+                size: small
+                translate: false
+                width: 3/3
+                help: See EFF's <a href="https://eff.org/dnt-policy">A privacy-friendly Do Not Track (DNT) Policy</a> for an example.
+
+      right:
+        width: 1/3
+        sections:
+          info_seo:
+            type: info
+            headline: Info
+            text: >
+              <h4>Adding External Analytics Code</h4>
+              <p>Your site has comprehensive, built-in analytics provided by <a href="https://matomo.org">Matomo</a>. However,
+              if you'd like to add tracking code from an external analytics provider. you can do so here.</p>
+              <p>Analytics code you enter in this page is added by default to <strong>every</strong> page in your
+              website. If you have analytics code that is specific to a certain page, you can enter it in the page's
+              own 'SEO & Analytics' tab.</p>
+
+              <h4>Changing The Site Title</h4>
+              <p>Your site title is currently set as &quot;<strong>{{site.title}}</strong>&quot;. You can change it
+              by <em>clicking it</em> - at the top-left of this window, above the tabs. It is used in search engine
+              results, when linking to your site on social media sites, and is also displayed in the browser's title
+              bar in every page of the site.</p>
+              <h4>The Sitemap</h4>
+              <p>Your site has an auto-generated <strong>sitemap</strong>, and also a <em>robots.txt</em> file, which
+              are used by search engines to automatically catalog the contents of the site. You can view your sitemap
+              at <a href='{{site.url}}/sitemap.xml'>{{site.url}}/sitemap.xml</a>.
+
+              <h4>.well-known Files</h4>
+              <p>The files in the <em>".well-known"</em> directory are all optional, but if present will enhance
+              the metadata of your site, and can affect how certain sites and apps present, catalog and link to
+              your pages. Once you define them, these files will be viewable here:</p>
+              <p style="text-align: center">
+              <a href='{{site.url}}/.well-known/security.txt'>security.txt</a> &nbsp;
+              <a href='{{site.url}}/humans.txt'>humans.txt</a> &nbsp;
+              <a href='{{site.url}}/.well-known/dnt-policy.txt'>dnt-policy.txt</a>
+              </p>
+  ####################################
+  ### ANALYTICS TAB
+  ####################################
+  analytics:
+    label: Site Analytics
+    icon: file-spreadsheet
+    columns:
+      left:
+        width: 3/4
+        sections:
+          main:
+            type: matomo-main
+
+      right:
+        width: 1/4
+        sections:
+          sidebar:
+            type: matomo-sidebar

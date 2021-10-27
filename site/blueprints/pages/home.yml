@@ -1,0 +1,105 @@
+title: Home
+icon: page
+options:
+  changeStatus: false
+  changeSlug: false
+  duplicate: false
+  changeTemplate: false
+  hideSettings: true
+  hideStatus: true 
+tabs:
+  ####################################
+  ### Content
+  ####################################
+  contents:
+    label: CONTENT
+    icon: document
+    columns:
+      content_left:
+        width: 2/3
+        sections:
+          content:
+            type: fields
+            fields:
+              heading:
+                label: Heading
+                placeholder: hosting for kirby
+                type: text
+                numbered: false
+                default: true
+              intro_text:
+                label: Intro Text
+                type: textarea
+                size: small
+                buttons: false
+                numbered: false
+                default: true
+          hero:
+            type: files
+            headline: Side Image
+            sortable: false
+            layout: cards
+            image:
+              query: page.mainImg
+              cover: true
+              ratio: 16/9
+            info: "{{file.dimensions}}"
+            text: "{{ file.alt_txt.or(file.name) }}"
+            empty: no images uploaded
+            uploads: false
+            max: 1
+            template: side_image
+            size: large
+
+      card_right:
+        width: 1/3
+        sections:
+          info_contents2:
+            type: info
+            headline: Info
+            text: >
+              <h4>Changing The Section Title</h4>
+              <p>To change the section title, click on the title itself at the top of this page.</p>
+
+
+   ####################################
+  ###  STRIPE OPTIONS
+  ####################################
+  # stripe_config:
+  #   extends: fields/stripe-subscription-main
+   ####################################
+  ###  SEO CONTENT TAB
+  ####################################
+  seo:
+    label: SEO & Analytics
+    icon: code
+    columns:
+      left:
+        width: 2/3
+        sections:
+          metadata:  sections/metadata
+          analytics: sections/analytics
+      right:
+        width: 1/3
+        sections:
+          matomo:
+            type: matomo-page
+          info_seo:
+            type: info
+            headline: Info
+            text: >
+              <h4>Changing The Blog Page Title</h4>
+              <p>A page title for the Blog Page is automatically generated for you, and the current title is &quot;<strong>{{page.pageTitle}}</strong>&quot;.
+              You can override this by entering a new page title in the <strong>'Page Title Override'</strong> field here. It will be used in search engine
+              results, when linking to your site on social media sites, and is also displayed in the browser's title
+              bar.</p>
+
+              <h4>Blog Page Preview Image</h4>
+              <p>The Blog Page's preview image - seen on some search results, and when mentioning the page on
+              social media sites - is generated automatically from the main image of the blog's latest article.</p>
+
+              <h4>Blog Page Analytics Code</h4>
+              <p>Analytics code you enter here will be specific to the Blog Page only - it will not appear or
+              affect any other pages in the site. Code entered here will also <strong>replace</strong> any analytics
+              code entered in the 'Default SEO' settings of the site.</p>
+
