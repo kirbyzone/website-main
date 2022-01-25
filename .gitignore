@@ -26,7 +26,6 @@ Icon
 /site/config/.license
 /kirby
 /vendor
-/content/*
 /site/plugins/k3-panel-view-extended
 /site/plugins/kirby3-wellknown
 /site/plugins/matomo
@@ -34,7 +33,6 @@ Icon
 /site/plugins/retour-for-kirby/
 /config.codekit3
 /node_modules
-/content
 prepros.config
 prepros-6.config
 *.html
