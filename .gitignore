@@ -1,16 +1,41 @@
-# System-Related Files:
-.DS_Store
+# System files
+# ------------
 Icon
-
-# Configuration files
-# from IDEs, compilers and coding tools:
-config.codekit3
+.DS_Store
+# Temporary files
+# ---------------
+/media/*
+!/media/index.html
+# -------------SECURITY-------------
+# NEVER publish these files via Git!
+# -------------SECURITY-------------
+# Cache Files
+# ---------------
+/site/cache/*
+!/site/cache/index.html
+# Accounts
+# ---------------
+/site/accounts/*
+!/site/accounts/index.html
+# Sessions
+# ---------------
+/site/sessions/*
+!/site/sessions/index.html
+# License
+# ---------------
+/site/config/.license
+/kirby
+/vendor
+/site/plugins/k3-panel-view-extended
+/site/plugins/kirby3-wellknown
+/site/plugins/matomo
+/site/plugins/sitemapper
+/site/plugins/retour-for-kirby/
+/config.codekit3
+/node_modules
 prepros.config
 prepros-6.config
-.idea/*
-
-# Frameworks, libraries & third-party code
-# handled by and external dependency manager,
-# such as npm, composer, etc:
-node_modules/*
-vendor/*
+*.html
+kit/
+.gitignore
+/site/snippets/layouts/blocks/gallery_bak.php

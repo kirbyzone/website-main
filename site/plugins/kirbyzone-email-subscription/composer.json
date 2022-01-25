@@ -1,0 +1,15 @@
+{
+    "name": "kirbyzone/subscription",
+    "description": "Email Subscription Plugin",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daryl Cabanting",
+            "email": "daryl@kirby.zone"
+        }
+    ],
+    "require": {
+        "getkirby/composer-installer": "^1.1"
+    }
+}

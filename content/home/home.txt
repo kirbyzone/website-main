@@ -1,0 +1,9 @@
+Title: Coming soon, a professional, secure and fully-managed hosting service for your Kirby website
+
+----
+
+Heading: hosting for Kirby
+
+----
+
+Intro-text: Our fully-managed servers are feature-packed, and optimally configured to host your Kirby sites securely, and efficiently. With features like free SSL certificates, git auto-deployment, full SSH access, and Kirby-savvy support, you'll never want to host your sites anywhere else.

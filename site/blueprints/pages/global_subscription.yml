@@ -1,0 +1,51 @@
+
+title: Subscription
+icon: 📧
+options:
+  delete: false
+  # changeStatus: false
+  preview: false
+  changeSlug: false
+  changeTemplate: false
+  hideSettings: true
+  hideStatus: true
+  duplicate: false
+status: 
+  draft:
+    label: Hidden
+    text: section is hidden, and only visible in the Panel
+  unlisted: 
+    label: Ready
+    text: section is ready and publicly visible on the page
+tabs:
+  ####################################
+  ### Email Subscription Options
+  ####################################
+  email_subs_content:
+    label: Newsletter
+    icon: page
+    columns:
+      left:
+        width: 2/3
+        sections:
+          email_content:
+            type: fields
+            fields:
+              email_subscription:
+                extends: fields/email-subscription
+
+
+      right:
+        width: 1/3
+        sections:
+          info_content:
+            type: info
+            headline: info
+            text: >
+              <h4>Changing The Section Title</h4>
+              <p>To change the section title, click on the title itself at the top of this page.</p>
+
+
+
+
+

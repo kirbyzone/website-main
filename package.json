@@ -1,0 +1,15 @@
+{
+  "name": "Kirbyzone Website",
+  "version": "1.0.0",
+  "description": "the main website for Kirbyzone Pty Ltd",
+  "author": "Kirbyzone Pty Ltd <support@kirby.zone> (https://kirby.zone)",
+  "license": "Unlicense",
+  "repository": "github:kirbyzone/website-main",
+  "private": true,
+  "scripts": {},
+  "dependencies": {
+    "@tailwindcss/forms": "^0.3.3",
+    "autoprefixer": "^10.3.5",
+    "tailwindcss": "^2.2.15"
+  }
+}
