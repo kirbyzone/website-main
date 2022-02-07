@@ -37,5 +37,4 @@ prepros.config
 prepros-6.config
 *.html
 kit/
-.gitignore
 /site/snippets/layouts/blocks/gallery_bak.php
