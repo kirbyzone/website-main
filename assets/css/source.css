@@ -9,6 +9,36 @@
   html {
     scroll-behavior: smooth;
   }
+
+  h2 {
+    @apply text-xl font-bold mt-6 mb-2 text-cream;
+  }
+
+  h3 {
+    @apply font-bold text-cream mt-4;
+  }
+
+  h4 {
+    @apply text-cream italic;
+  }
+
+  h5 {
+    @apply text-cream bg-wine/30 p-2 mt-4 mb-2;
+  }
+
+  h6 { @apply font-bold; }
+
+  ul {
+    @apply list-disc list-outside ml-6 space-y-1 mb-2;
+  }
+
+  ol {
+    @apply list-decimal list-roman list-outside ml-6 space-y-1 mb-2;
+  }
+
+  #policy p { @apply mb-2; }
+
+  hr { @apply mt-16; }
 }
 
 @layer components {
@@ -23,4 +53,9 @@
   .textlink {
     @apply border-b-[1px] border-snow hover:bg-cream/20 hover:border-cream transition-all duration-300
   }
+}
+
+
+ol.alpha {
+  @apply list-alpha list-outside ml-6 space-y-1 mb-2;
 }

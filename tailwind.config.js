@@ -2,8 +2,8 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   content: [
-    "./site/templates/**/*.php",
-    "./site/snippets/**/*.php"
+    "./site/templates/**/*.{html,php}",
+    "./site/snippets/**/*.{html,php}"
   ],
   theme: {
     extend: {

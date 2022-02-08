@@ -35,6 +35,3 @@ Icon
 /node_modules
 prepros.config
 prepros-6.config
-*.html
-kit/
-/site/snippets/layouts/blocks/gallery_bak.php

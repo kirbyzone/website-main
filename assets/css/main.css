@@ -597,6 +597,77 @@ html {
   scroll-behavior: smooth;
 }
 
+h2{
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(249 231 159 / var(--tw-text-opacity));
+}
+
+h3{
+  margin-top: 1rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(249 231 159 / var(--tw-text-opacity));
+}
+
+h4{
+  font-style: italic;
+  --tw-text-opacity: 1;
+  color: rgb(249 231 159 / var(--tw-text-opacity));
+}
+
+h5{
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  background-color: rgb(121 45 47 / 0.3);
+  padding: 0.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(249 231 159 / var(--tw-text-opacity));
+}
+
+h6{
+  font-weight: 700;
+}
+
+ul{
+  margin-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  list-style-position: outside;
+  list-style-type: disc;
+}
+
+ul > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
+}
+
+ol{
+  margin-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  list-style-position: outside;
+  list-style-type: decimal;
+  list-style-type: lower-roman;
+}
+
+ol > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
+}
+
+#policy p{
+  margin-bottom: 0.5rem;
+}
+
+hr{
+  margin-top: 4rem;
+}
+
 *, ::before, ::after{
   --tw-translate-x: 0;
   --tw-translate-y: 0;
@@ -745,6 +816,21 @@ html {
   opacity: 1;
 }
 
+.textlink{
+  border-bottom-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(238 238 240 / var(--tw-border-opacity));
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.textlink:hover{
+  --tw-border-opacity: 1;
+  border-color: rgb(249 231 159 / var(--tw-border-opacity));
+  background-color: rgb(249 231 159 / 0.2);
+}
+
 .sr-only{
   position: absolute;
   width: 1px;
@@ -806,13 +892,27 @@ html {
   margin-right: auto;
 }
 
+.my-6{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .mx-2{
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
 
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .mb-4{
   margin-bottom: 1rem;
+}
+
+.mb-2{
+  margin-bottom: 0.5rem;
 }
 
 .mt-4{
@@ -875,10 +975,6 @@ html {
   width: 18rem;
 }
 
-.w-3\/4{
-  width: 75%;
-}
-
 .w-6{
   width: 1.5rem;
 }
@@ -892,6 +988,10 @@ html {
 }
 
 .w-9\/12{
+  width: 75%;
+}
+
+.w-3\/4{
   width: 75%;
 }
 
@@ -1024,6 +1124,11 @@ html {
   padding: 3rem;
 }
 
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -1032,21 +1137,6 @@ html {
 .px-10{
   padding-left: 2.5rem;
   padding-right: 2.5rem;
-}
-
-.px-2{
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.px-8{
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.px-6{
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
 }
 
 .pt-28{
@@ -1093,11 +1183,6 @@ html {
   font-family: Damion, cursive;
 }
 
-.text-xl{
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -1113,8 +1198,8 @@ html {
   line-height: 1rem;
 }
 
-.text-lg{
-  font-size: 1.125rem;
+.text-xl{
+  font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
@@ -1194,9 +1279,26 @@ html {
   transition-duration: 300ms;
 }
 
+ol.alpha{
+  margin-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  list-style-position: outside;
+  list-style-type: lower-alpha;
+}
+
+ol.alpha > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
+}
+
 .hover\:translate-y-2:hover{
   --tw-translate-y: 0.5rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:bg-cream\/20:hover{
+  background-color: rgb(249 231 159 / 0.2);
 }
 
 .hover\:bg-cream:hover{
@@ -1237,11 +1339,21 @@ html {
   .sm\:justify-self-end{
     justify-self: end;
   }
+
+  .sm\:px-12{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 }
 
 @media (min-width: 768px){
   .md\:-right-8{
     right: -2rem;
+  }
+
+  .md\:px-20{
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 }
 
@@ -1253,11 +1365,21 @@ html {
   .lg\:max-w-3xl{
     max-width: 48rem;
   }
+
+  .lg\:px-32{
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
 }
 
 @media (min-width: 1280px){
   .xl\:right-24{
     right: 6rem;
+  }
+
+  .xl\:px-48{
+    padding-left: 12rem;
+    padding-right: 12rem;
   }
 }
 
