@@ -59,3 +59,15 @@
 ol.alpha {
   @apply list-alpha list-outside ml-6 space-y-1 mb-2;
 }
+
+.error p {
+  @apply text-xl font-bold;
+}
+
+.error p a {
+  @apply border-b-[1px] border-snow hover:bg-cream/20 hover:border-cream transition-all duration-300;
+}
+
+#policy p a {
+  @apply border-b-[1px] border-snow hover:bg-cream/20 hover:border-cream transition-all duration-300;
+}
