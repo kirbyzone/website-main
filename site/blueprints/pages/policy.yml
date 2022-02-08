@@ -1,0 +1,29 @@
+title: Legal Documents
+icon: page
+tabs:
+  ####################################
+  ### Content
+  ####################################
+  contents:
+    label: CONTENT
+    icon: document
+    columns:
+      content_left:
+        width: 2/3
+        sections:
+          content:
+            type: fields
+            fields:
+              title:
+                type: text 
+                counter: false
+                label: Title
+                placeholder: Terms & Conditions
+              content:
+                type: textarea
+                counter: false
+                size: large
+                label: Content
+
+
+          

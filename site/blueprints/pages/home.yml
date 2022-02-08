@@ -25,31 +25,45 @@ tabs:
                 label: Heading
                 placeholder: hosting for kirby
                 type: text
-                numbered: false
+                counter: false
                 default: true
               intro_text:
                 label: Intro Text
                 type: textarea
                 size: small
                 buttons: false
-                numbered: false
+                counter: false
                 default: true
-          hero:
-            type: files
-            headline: Side Image
-            sortable: false
-            layout: cards
-            image:
-              query: page.mainImg
-              cover: true
-              ratio: 16/9
-            info: "{{file.dimensions}}"
-            text: "{{ file.alt_txt.or(file.name) }}"
-            empty: no images uploaded
-            uploads: false
-            max: 1
-            template: side_image
-            size: large
+              mobile_img:
+                type: files
+                label: Mobile Image
+                sortable: false
+                layout: cards
+                image:
+                  query: page.mainImg
+                  cover: true
+                  ratio: 16/9
+                info: "{{file.dimensions}}"
+                text: "{{ file.alt_txt.or(file.name) }}"
+                empty: no images uploaded
+                max: 1
+                template: hero_image
+                size: large
+              desktop_img:
+                type: files
+                label: Desktop Image
+                sortable: false
+                layout: cards
+                image:
+                  query: page.mainImg
+                  cover: true
+                  ratio: 16/9
+                info: "{{file.dimensions}}"
+                text: "{{ file.alt_txt.or(file.name) }}"
+                empty: no images uploaded
+                max: 1
+                template: hero_image
+                size: large
 
       card_right:
         width: 1/3

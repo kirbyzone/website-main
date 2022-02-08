@@ -7,34 +7,6 @@ tabs:
   site_content:
     label: Site Content
     icon: page
-    sections:
-      pages_areas:
-        type: pages
-        headline: Main Content
-        status: all
-        layout: cards
-        size: small  
-        sortable: false
-        max: 6
-        image:
-          query: page.mainImg
-          cover: true
-          ratio: 16/9
-          back: white
-        info: "{{page.lastModified('jS M Y - g:ia')}}"
-        templates:
-          - home
-          - sessions
-          - blog
-          - global
-          - success
-          - error
-
-
-  ####################################
-  site_content:
-    label: Site Content
-    icon: page
     columns:
       settigns_left:
         width: 3/4
@@ -55,30 +27,11 @@ tabs:
             info: "{{page.lastModified('jS M Y - g:ia')}}"
             templates:
               - home
-              - sessions
-              - blog
               - global
-              - success
               - error
+              - policies
   
 
-      # card_right:
-      #   width: 2/4
-      #   sections:
-
-      #     landing_pages:
-      #       type: pages 
-      #       headline: Landing Pages 
-      #       status: all 
-      #       templates: landing
-      #       empty: no landing pages yet
-      #       width: 3/4
-      #       info: "{{page.lastModified('jS M Y - g:ia')}}"
-      #       image:
-      #         query: page.mainImg
-      #         cover: true
-      #         ratio: 16/9
-      #         back: white
 
 ####################################
 ### SEO TAB

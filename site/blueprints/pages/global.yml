@@ -27,7 +27,18 @@ columns:
           back: white
         status: all
         info: "{{page.lastModified('jS M Y - g:ia')}}"
-    
+      contact_section:
+        type: pages
+        headline: Contact Section
+        template: global_contact
+        empty: no contact yet
+        sortable: false
+        max: 1
+        image:
+          query: false
+          back: white
+        status: all
+        info: "{{page.lastModified('jS M Y - g:ia')}}"
   right:
     width: 1/3
     sections:          

@@ -34,12 +34,13 @@
           </p>
         </div>
         <div class="justify-self-center sm:justify-self-start">
-          <img src="<?=asset('assets/img/mobile-preview.svg')->url()?>"
+          <img src="<?=$_heroImage_['_image_url_mobile_']?>"
                alt="hosting interface preview - mobile"
                class="border-snow/20 border-[1px] rounded-lg shadow-xl sm:hidden">
           <img class="border-snow/20 border-[1px] rounded-lg shadow-xl max-w-2xl lg:max-w-3xl hidden sm:block"
-          src=" <?=asset('assets/img/desktop-preview.svg')->url()?>"
+          src="<?=$_heroImage_['_image_url_desktop_']?>"
           alt="hosting interface preview - desktop">
+    
         </div>
 
       </div>
