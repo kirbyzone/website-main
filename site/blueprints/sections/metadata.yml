@@ -1,0 +1,22 @@
+type: fields
+fields:
+  metadata_headline:
+    label: Metadata
+    type: headline
+    numbered: false
+  page_title_override:
+    label: Page Title Override
+    type:  text
+    counter: false
+    help: >
+     Enter a new page title here, to override the auto-generated default.
+  page_desc:
+    label: Page Description
+    type:  textarea
+    size: small
+    maxlength: 160
+    buttons: false
+    help: >
+     Short introduction or summary, 160 characters or less. It is displayed when sharing the page
+     on social media sites, and in some search results. A good description can help your search engine
+     rankings.

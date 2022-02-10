@@ -76,11 +76,7 @@ tabs:
               <p>To change the section title, click on the title itself at the top of this page.</p>
 
 
-   ####################################
-  ###  STRIPE OPTIONS
-  ####################################
-  # stripe_config:
-  #   extends: fields/stripe-subscription-main
+
    ####################################
   ###  SEO CONTENT TAB
   ####################################
@@ -102,18 +98,14 @@ tabs:
             type: info
             headline: Info
             text: >
-              <h4>Changing The Blog Page Title</h4>
-              <p>A page title for the Blog Page is automatically generated for you, and the current title is &quot;<strong>{{page.pageTitle}}</strong>&quot;.
+              <h4>Changing The Home Page Title</h4>
+              <p>A page title for the Home Page is automatically generated for you, and the current title is &quot;<strong>{{page.pageTitle}}</strong>&quot;.
               You can override this by entering a new page title in the <strong>'Page Title Override'</strong> field here. It will be used in search engine
               results, when linking to your site on social media sites, and is also displayed in the browser's title
               bar.</p>
 
-              <h4>Blog Page Preview Image</h4>
-              <p>The Blog Page's preview image - seen on some search results, and when mentioning the page on
-              social media sites - is generated automatically from the main image of the blog's latest article.</p>
-
-              <h4>Blog Page Analytics Code</h4>
-              <p>Analytics code you enter here will be specific to the Blog Page only - it will not appear or
+              <h4>Home Page Analytics Code</h4>
+              <p>Analytics code you enter here will be specific to the Home Page only - it will not appear or
               affect any other pages in the site. Code entered here will also <strong>replace</strong> any analytics
               code entered in the 'Default SEO' settings of the site.</p>
 

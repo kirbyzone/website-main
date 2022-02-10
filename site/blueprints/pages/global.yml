@@ -1,16 +1,16 @@
 title: Global
 icon: globe
-# options:
-#   delete: false
-#   changeStatus: false
-#   preview: false
-#   changeSlug: false
-#   changeTemplate: false
-#   hideSettings: true
-#   hideStatus: true
-#   changeTitle: false
-#   duplicate: false
-#   sitemap: hide
+options:
+  delete: false
+  changeStatus: false
+  preview: false
+  changeSlug: false
+  changeTemplate: false
+  hideSettings: true
+  hideStatus: true
+  changeTitle: false
+  duplicate: false
+  sitemap: hide
 columns:
   left:
     width: 2/3

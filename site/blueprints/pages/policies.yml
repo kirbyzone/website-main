@@ -1,4 +1,15 @@
 title: Policies
+options:
+  delete: false
+  changeStatus: false
+  preview: false
+  changeSlug: false
+  changeTemplate: false
+  hideSettings: true
+  hideStatus: true
+  duplicate: false
+  sitemap: hide
+
 tabs:
 
 ####################################

@@ -1,0 +1,5 @@
+label: Section Text
+type: textarea
+maxlength: 300
+size: small
+buttons: false

@@ -1,0 +1,12 @@
+label: Section Text
+type: textarea
+counter: false
+uploads: false
+buttons: 
+  - bold
+  - italic
+  - link
+  - file
+  - ul 
+  - ol 
+size: small
