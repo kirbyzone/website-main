@@ -1,0 +1,7 @@
+type: writer
+inline: true
+marks: 
+  - bold
+  - italic
+  - link
+  - underline

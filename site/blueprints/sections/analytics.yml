@@ -1,0 +1,26 @@
+type: fields
+fields:
+  analytics_headline:
+    label: Analytics
+    type: headline
+    numbered: false
+  head_analytics:
+    label: Head Analytics
+    type: textarea
+    size: medium
+    buttons: false
+    counter: false
+    help: >
+      Code snippets from your analytics provider - such as Facebook Pixel Code -
+      that should be added just before the closing <strong>&lt;/head&gt;</strong> tag of this page.
+      Code entered here will replace any snippets previously entered in the Global Head Analytics field of the site.
+  body_analytics:
+    label: Body Analytics
+    type: textarea
+    size: medium
+    buttons: false
+    counter: false
+    help: >
+      Code snippets from your analytics provider - such as Google Analytics -
+      that should be added just before the closing <strong>&lt;/body&gt;</strong> tag of this page.
+      Code entered here will replace any snippets previously entered in the Global Footer Analytics field of the site.

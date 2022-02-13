@@ -1,0 +1,72 @@
+Title: Error
+icon: alert
+options:
+  changeSlug: false
+  changeTemplate: false
+  hideSettings: true
+  hideStatus: true
+  duplicate: false
+  changeTitle: false
+tabs:
+  ####################################
+  ###  PAGE CONTENT TAB
+  ####################################
+  article:
+    label: Page Content 
+    icon: edit 
+    columns:
+      left:
+        width: 2/3
+        sections:
+          contents:
+            type: fields
+            fields:
+              intro_text:
+                extends: fields/mid_textarea
+                label: Content
+                fieldsets:
+                  media: 
+                    type: hidden
+                  code:
+                    type: hidden
+
+
+     
+
+ ###################################
+  ##  SEO & ANALYTICS
+  ###################################
+  SEO:
+    label: SEO & Analytics
+    icon: code
+    columns:
+      left:
+        width: 2/3
+        sections:
+          metadata: sections/metadata
+          analytics: sections/analytics
+      right:
+        width: 1/3
+        sections:
+          info_seo:
+            type: info
+            headline: Info
+            text: >
+              <h4>Changing The Page Title</h4>
+              <p>A page title is automatically generated for you, and the current page title is &quot;<strong>{{page.pageTitle}}</strong>&quot;. 
+              You can override this by entering a new page title in the 'Page Title Override' field here. It is used in search engine 
+              results, if linking to the Error Page on social media sites, and is also displayed in the browser's title 
+              bar.</p>
+
+              <h4>Page Preview Image</h4>
+              <p>The Error Page's preview image - seen on some search results, and when mentioning the page on 
+              social media sites - is generated automatically from the <strong>Side Image</strong>.</p>
+
+              <h4>About Page Analytics Code</h4>
+              <p>Your site has comprehensive, built-in analytics provided by <a href="https://matomo.org">Matomo</a>. However, 
+              if you'd like to add tracking code from an external analytics provider. you can do so here.</p>
+              <p>Analytics code you enter here will be specific to the Blog page only - it will not appear or 
+              affect any other pages in the site. Code entered here will also <strong>replace</strong> any analytics 
+              code entered in the 'Default SEO' settings of the site.</p>            
+
+  

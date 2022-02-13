@@ -1,0 +1,40 @@
+title: Policies
+options:
+  delete: false
+  changeStatus: false
+  preview: false
+  changeSlug: false
+  changeTemplate: false
+  hideSettings: true
+  hideStatus: true
+  duplicate: false
+  sitemap: hide
+
+tabs:
+
+####################################
+###   PAGES TAB
+####################################
+  site_content:
+    label: Site Content
+    icon: page
+    columns:
+      settigns_left:
+        width: 3/4
+        sections:
+          pages_areas:
+            type: pages
+            headline: Policies
+            status: all
+            layout: list
+            size: tiny  
+            sortable: false
+            max: 6
+            image:
+              query: page.mainImg
+              cover: true
+              ratio: 16/9
+              back: black
+            info: "{{page.lastModified('jS M Y - g:ia')}}"
+            templates:
+              - policy
