@@ -12,10 +12,26 @@ Intro-text: Our fully-managed servers are feature-packed, and optimally configur
 
 Mobile-img:
 
-- card-icon.svg
+- mobile-preview.svg
 
 ----
 
 Desktop-img:
 
-- client1.svg
+- desktop-preview.svg
+
+----
+
+Page-title-override: 
+
+----
+
+Page-desc: 
+
+----
+
+Head-analytics: 
+
+----
+
+Body-analytics: 
