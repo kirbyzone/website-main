@@ -1,4 +1,4 @@
-Title: global_subscription
+Title: newsletter subscription
 
 ----
 
@@ -6,15 +6,11 @@ Heading: be notified
 
 ----
 
-Intro-text: Sign up to be first-in-line for our launch, and to receive occasional news, updates and promotions about our upcoming services and products.
+Intro-text: Sign up to be first-in-line for our launch, and to receive occasional news, updates and promotions about our upcoming services and products.!
 
 ----
 
 Sub-intro-text: We'll never send you any spam, and we'll never sell or give away your personal data to anyone.
-
-----
-
-Form-name: true
 
 ----
 
@@ -35,6 +31,10 @@ Success-message: This is a Success
 ----
 
 Failed-message: This is a Failed
+
+----
+
+Form-name: true
 
 ----
 

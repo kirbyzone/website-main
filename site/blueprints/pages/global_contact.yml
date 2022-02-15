@@ -1,14 +1,14 @@
 title: Contact Section
 icon: ☎️
-# options:
-#   delete: true
-#   changeStatus: false
-#   preview: false
-#   changeSlug: false
-#   changeTemplate: false
-#   hideSettings: true
-#   hideStatus: true
-#   duplicate: false
+options:
+  delete: true
+  changeStatus: false
+  preview: false
+  changeSlug: false
+  changeTemplate: false
+  hideSettings: true
+  hideStatus: true
+  duplicate: false
 status:
   draft:
     label: Draft
