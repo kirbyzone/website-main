@@ -17,8 +17,8 @@ Sub-intro-text: We'll never send you any spam, and we'll never sell or give away
 Lists-id:
 
 - 
-  list_name: Kirbyzone List
-  list_id: "294278"
+  list_name: Landing List
+  list_id: "268084"
 
 ----
 

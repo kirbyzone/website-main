@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "54181d93f5b7fc0e37480faf41108e45",
+    "content-hash": "8a92e39c9d369cc1728c8e123857c3df",
     "packages": [
         {
             "name": "claviska/simpleimage",
@@ -253,6 +253,41 @@
                 }
             ],
             "time": "2020-12-28T12:54:39+00:00"
+        },
+        {
+            "name": "kirbyzone/sendfox",
+            "version": "0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kirbyzone/sendfox.git",
+                "reference": "db732f68556d0af681acc31e76d899e2be1cda95"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kirbyzone/sendfox/zipball/db732f68556d0af681acc31e76d899e2be1cda95",
+                "reference": "db732f68556d0af681acc31e76d899e2be1cda95",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1"
+            },
+            "type": "kirby-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daryl Cabanting",
+                    "email": "daryl@kirby.zone"
+                }
+            ],
+            "description": "Email Subscription Plugin",
+            "support": {
+                "issues": "https://github.com/kirbyzone/sendfox/issues",
+                "source": "https://github.com/kirbyzone/sendfox/tree/0.1"
+            },
+            "time": "2022-02-02T02:51:07+00:00"
         },
         {
             "name": "laminas/laminas-escaper",
