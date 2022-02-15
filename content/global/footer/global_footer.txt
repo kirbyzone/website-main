@@ -1,1 +1,5 @@
 Title: Footer
+
+----
+
+Copyright: ©(date: year) kirbyzone - all rights reserved

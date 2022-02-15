@@ -1,5 +1,5 @@
 <?php 
-  $_global_contact_ = page('global/global-contact'); ?>
+  $_global_contact_ = page('global/footer/contact'); ?>
     <!-- FOOTER -->
     <footer class="container m-auto mt-4">
       <img class="w-10/12 h-32 m-auto opacity-5 -mb-24" src="<?=asset('assets/img/hexagon-top.svg')->url()?>" alt="hexagonal background">
@@ -85,7 +85,7 @@
         <!-- LEGAL DOCS -->
         <!-- TODO: create required legal docs -->
 <?php 
-$policies = page('policies'); 
+$policies = page('global/footer/policies'); 
 
 ?>
         <p class="text-center text-sm pt-2 pb-4 text-snow/50 w-9/12 m-auto">
@@ -101,7 +101,7 @@ $policies = page('policies');
     
         <!-- COPYRIGHT BLOCK -->
         <p class="text-xs text-snow/50 text-center pb-6">
-          &copy; <?php echo date ('Y'); ?>, Kirbyzone — all rights reserved
+          <?=page('global/footer')->copyright()->kirbytags()?>
         </p>
         <!-- end of COPYRIGHT BLOCK -->
     
