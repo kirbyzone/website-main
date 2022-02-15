@@ -28,8 +28,8 @@
 
     <script src="https://unpkg.com/htmx.org@1.6.0"></script>
     <!-- STYLESHEETS -->
-    <link rel="stylesheet" href="<?=asset('assets/css/main.css')->url()?>">
-
+    <?= css('assets/css/main.css') ?>
+    
     <!-- SCRIPTS -->
     <!-- <script src="/js/main.js" defer></script> -->
   </head>

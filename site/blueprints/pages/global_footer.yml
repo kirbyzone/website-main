@@ -1,25 +1,25 @@
-title: Global
+title: Global Footer
 icon: globe
-options:
-  delete: false
-  changeStatus: false
-  preview: false
-  changeSlug: false
-  changeTemplate: false
-  hideSettings: true
-  hideStatus: true
-  changeTitle: false
-  duplicate: false
-  sitemap: hide
+# options:
+#   delete: false
+#   changeStatus: false
+#   preview: false
+#   changeSlug: false
+#   changeTemplate: false
+#   hideSettings: true
+#   hideStatus: true
+#   changeTitle: false
+#   duplicate: false
+#   sitemap: hide
 columns:
   left:
     width: 2/3
     sections:
-      subscription:
+      legal_document:
         type: pages
-        headline: Newsletter Subscription Section
-        template: global_subscription
-        empty: No Subscription Section Yet
+        headline: Legal Documents Section
+        template: policies
+        empty: No Policies Section Yet
         sortable: false
         max: 1
         image:
@@ -27,11 +27,11 @@ columns:
           back: white
         status: all
         info: "{{page.lastModified('jS M Y - g:ia')}}"
-      footer:
+      contact_section:
         type: pages
-        headline: Footer Section
-        template: global_footer
-        empty: No Footer Section Yet
+        headline: Contact Section
+        template: global_contact
+        empty: no contact yet
         sortable: false
         max: 1
         image:
@@ -39,7 +39,6 @@ columns:
           back: white
         status: all
         info: "{{page.lastModified('jS M Y - g:ia')}}"
-
   right:
     width: 1/3
     sections:          
