@@ -28,9 +28,9 @@
     <section id="hosting" style="overflow-x: hidden">
       <div class="container m-auto grid grid-cols-1 sm:grid-cols-2 gap-8 p-12 justify-center">
         <div class="max-w-sm justify-self-center sm:justify-self-end">
-          <h2 class="text-3xl font-bold">hosting for Kirby</h2>
+          <h2 class="text-3xl font-bold"><?=$page->heading()?></h2>
           <p>
-            Our fully-managed servers are feature-packed, and optimally configured to host your Kirby sites securely, and efficiently. With features like free SSL certificates, git auto-deployment, full SSH access, and Kirby-savvy support, you'll never want to host your sites anywhere else.
+            <?=$page->intro_text()?>
           </p>
         </div>
         <div class="justify-self-center sm:justify-self-start">

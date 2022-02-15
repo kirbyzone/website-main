@@ -15,6 +15,15 @@ columns:
   left:
     width: 2/3
     sections:
+      copyright_content:
+        type: fields
+        fields:
+          copyright:
+            type: textarea
+            counter: false
+            buttons: false
+            label: copyright notice
+            help: small text — suitable for copyright notices.
       legal_document:
         type: pages
         headline: Legal Documents Section

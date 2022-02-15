@@ -10,7 +10,7 @@
           <?php snippet('subscribes/forms'); ?>
         </div>
         <div class="max-w-sm justify-self-center sm:justify-self-start relative order-first sm:order-last">
-          <img src="<?=asset('assets/img/kirbyzone-shape-white.svg')->url()?>" alt="kirbyzone hexagon" class="w-48 absolute top-4 -right-16 opacity-5 animate-spin-3xslow delay-500 z-0 pointer-events-none transform rotate-45">
+          <img src="<?=asset('assets/img/kirbyzone-shape-white.svg')->url()?>" alt="kirbyzone hexagon" class="w-48 absolute top-4 -right-16 opacity-5 animate-spin-3xslow delay-500 z-0 pointer-events-none ">
           <h2 class="text-3xl font-bold"><?=$pg->heading()?></h2>
           <p><?=$pg->intro_text()?></p>
           <p class="text-xs opacity-70 mt-2"><?=$pg->sub_intro_text()?></p>
