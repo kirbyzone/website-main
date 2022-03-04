@@ -15,7 +15,7 @@ Icon
 !/site/cache/index.html
 # Accounts
 # ---------------
-#/site/accounts/*
+/site/accounts/*
 !/site/accounts/index.html
 # Sessions
 # ---------------
@@ -26,11 +26,7 @@ Icon
 /site/config/.license
 /kirby
 /vendor
-/site/plugins/k3-panel-view-extended
-/site/plugins/kirby3-wellknown
-/site/plugins/matomo
-/site/plugins/sitemapper
-/site/plugins/retour-for-kirby/
+/site/plugins/*
 /config.codekit3
 /node_modules
 prepros.config

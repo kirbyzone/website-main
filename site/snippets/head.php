@@ -29,6 +29,7 @@
     <script src="https://unpkg.com/htmx.org@1.6.0"></script>
     <!-- STYLESHEETS -->
     <?= css('assets/css/main.css') ?>
+     <script src="https://unpkg.com/htmx.org@1.6.0" integrity="sha384-G4dtlRlMBrk5fEiRXDsLjriPo8Qk5ZeHVVxS8KhX6D7I9XXJlNqbdvRlp9/glk5D" crossorigin="anonymous"></script>
     
     <!-- SCRIPTS -->
     <!-- <script src="/js/main.js" defer></script> -->

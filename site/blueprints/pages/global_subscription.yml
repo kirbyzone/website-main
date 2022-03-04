@@ -31,8 +31,72 @@ tabs:
           email_content:
             type: fields
             fields:
-              email_subscription:
-                extends: fields/email-subscription
+              form_headline:
+                type: headline
+                label: NewsLetter Form Options
+                numbered: false
+              intro_text:
+                label: 'Subscribe Now'
+                placeholder: "Subscribe Now"
+                type: textarea
+                counter: false
+                size: small
+                extends: fields/non_textarea
+              subs_intro_text:
+                extends: fields/non_textarea
+                label: Section Text
+                size: small
+                help: The body text of the 'Subscribe' section.
+              form_line:
+                type: line
+              lists_id:
+                type: structure
+                label: Lists Id
+                width: 3/4
+                columns:
+                  list_name:
+                  list_id:
+                fields:
+                  list_name:
+                    type: text
+                    label: Subscription List
+                    counter: false
+                    width: 1/1
+                  list_id:
+                    type: text
+                    counter: false
+                    label: List Id
+                    placeholder: 220860
+                    width: 1/1
+                help: >
+                  Leave empty to omit the '<strong>Last Name</strong>' field in the form.
+
+              success_message:
+                inline: true
+                marks: 
+                  - bold
+                  - italic
+                  - link
+                  - underline
+                type: writer
+                label: Success Message
+                size: large
+                help: The message that is displayed when the form is successfully submitted.
+                counter: false
+                width: 2/4
+              failed_message:
+                inline: true
+                marks: 
+                  - bold
+                  - italic
+                  - link
+                  - underline
+                type: writer
+                label: Failed Message
+                size: small
+                help: The message that is displayed when there is an issue processing the form data.
+                counter: false
+                width: 2/4
 
 
       right:
