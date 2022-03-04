@@ -52,7 +52,7 @@ tabs:
               lists_id:
                 type: structure
                 label: Lists Id
-                width: 2/4
+                width: 3/4
                 columns:
                   list_name:
                   list_id:
@@ -71,36 +71,32 @@ tabs:
                 help: >
                   Leave empty to omit the '<strong>Last Name</strong>' field in the form.
 
-                success_message:
-                  inline: true
-                  marks: 
-                    - bold
-                    - italic
-                    - link
-                    - underline
-                  type: writer
-                  label: Success Message
-                  size: large
-                  help: The message that is displayed when the form is successfully submitted.
-                  counter: false
-                  width: 2/4
-                  when:
-                    is_ajax: true
-                failed_message:
-                  inline: true
-                  marks: 
-                    - bold
-                    - italic
-                    - link
-                    - underline
-                  type: writer
-                  label: Failed Message
-                  size: small
-                  help: The message that is displayed when there is an issue processing the form data.
-                  counter: false
-                  width: 2/4
-                  when:
-                    is_ajax: true
+              success_message:
+                inline: true
+                marks: 
+                  - bold
+                  - italic
+                  - link
+                  - underline
+                type: writer
+                label: Success Message
+                size: large
+                help: The message that is displayed when the form is successfully submitted.
+                counter: false
+                width: 2/4
+              failed_message:
+                inline: true
+                marks: 
+                  - bold
+                  - italic
+                  - link
+                  - underline
+                type: writer
+                label: Failed Message
+                size: small
+                help: The message that is displayed when there is an issue processing the form data.
+                counter: false
+                width: 2/4
 
 
       right:

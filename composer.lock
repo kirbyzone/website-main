@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8a92e39c9d369cc1728c8e123857c3df",
+    "content-hash": "cd9f1e4c202c4493bbc498f0e3fcaa5c",
     "packages": [
         {
             "name": "claviska/simpleimage",
@@ -256,16 +256,16 @@
         },
         {
             "name": "kirbyzone/sendfox",
-            "version": "0.1",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kirbyzone/sendfox.git",
-                "reference": "db732f68556d0af681acc31e76d899e2be1cda95"
+                "reference": "d3bdc5ac4731009e9f03ca8bd8d2f911c357bacf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kirbyzone/sendfox/zipball/db732f68556d0af681acc31e76d899e2be1cda95",
-                "reference": "db732f68556d0af681acc31e76d899e2be1cda95",
+                "url": "https://api.github.com/repos/kirbyzone/sendfox/zipball/d3bdc5ac4731009e9f03ca8bd8d2f911c357bacf",
+                "reference": "d3bdc5ac4731009e9f03ca8bd8d2f911c357bacf",
                 "shasum": ""
             },
             "require": {
@@ -282,12 +282,12 @@
                     "email": "daryl@kirby.zone"
                 }
             ],
-            "description": "Email Subscription Plugin",
+            "description": "a plugin to help you interact with the SendFox API from your Kirby 3 web site",
             "support": {
                 "issues": "https://github.com/kirbyzone/sendfox/issues",
-                "source": "https://github.com/kirbyzone/sendfox/tree/0.1"
+                "source": "https://github.com/kirbyzone/sendfox/tree/1.1.1"
             },
-            "time": "2022-02-02T02:51:07+00:00"
+            "time": "2022-02-17T04:38:16+00:00"
         },
         {
             "name": "laminas/laminas-escaper",
@@ -855,12 +855,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Mbstring\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [

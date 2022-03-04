@@ -38,6 +38,11 @@ return [
                 }   
 
                 $result = site()->addToSendFox($list_array,$data_array);
+                if($result['status'] == true){
+                    $result['msg'] = $subsription->success_message();
+                }else{
+                    $result['msg'] = $subsription->failed_message();
+                }
                 return snippet('subscribes/forms', ['result'=>$result], true);
             }
       ],
