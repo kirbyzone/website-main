@@ -1,5 +1,5 @@
   <!-- <form hx-post="<?=site()->url()?>/formhandler" method="POST" class="flex flex-col space-y-2 mt-2"> -->
-  <form hx-post="<?=site()->url()?>/formhandler" hx-target='.form-subscription-section' hx-swap="outerHTML" class="form-subscription-section" method="POST" class="flex flex-col space-y-2 mt-2">
+  <form hx-post="<?=site()->url()?>/formhandler" hx-target='.form-subscription-section' hx-swap="outerHTML" class="flex flex-col space-y-2 mt-2" method="POST" class="flex flex-col space-y-2 mt-2">
  <?php 
         if(isset($result) ): ?>
           <h4> <?=$result['msg']?> </h4>
@@ -11,3 +11,5 @@
     <input type="hidden" name="website" value="">
     <button type="submit" class="bg-cream/80 text-wine text-sm font-bold py-3 px-10 rounded-lg w-32 transition-all duration-300 hover:bg-cream">sign up</button>
   </form>
+
+        
