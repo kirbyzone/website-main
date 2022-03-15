@@ -6,12 +6,12 @@
     <!-- HERO BANNER -->
     <section id="hero" class="pt-28 pb-12">
       <div class="container relative m-auto">
-        <h1 class="sr-only">kirbyzone</h1>
+        <h1 class="sr-only"><?=site()->title()?></h1>
         <img src="<?=asset('assets/img/kirbyzone-shape-white.svg')->url()?>" alt="kirbyzone hexagon" class="w-96 absolute -top-24 -right-32 sm:-right-24 md:-right-8 lg:right-8 xl:right-24 2xl:right-36 opacity-5 animate-spin-3xslow pointer-events-none" style="z-index: -10">
         <img src="<?=asset('assets/img/logo_yellow.svg')->url()?>" alt="kirbyzone" class="w-72 max-w-[80%] mx-auto mb-4">
         <p
           class="text-xl text-center font-bold w-3/4 m-auto">
-          Coming soon, a professional, secure and fully-managed hosting service for your Kirby websites.
+          <?= $page->title()?>
         </p>
         <!-- down button -->
         <a href="#hosting" class="transition-all transform duration-300 hover:translate-y-2 m-auto pt-6 text-cream block w-6 h-6">
@@ -38,7 +38,7 @@
                alt="hosting interface preview - mobile"
                class="border-snow/20 border-[1px] rounded-lg shadow-xl sm:hidden">
           <img class="border-snow/20 border-[1px] rounded-lg shadow-xl max-w-2xl lg:max-w-3xl hidden sm:block"
-          src="<?=asset('assets/img/desktop-preview.svg')->url()?>"
+          src=" <?=asset('assets/img/desktop-preview.svg')->url()?>"
           alt="hosting interface preview - desktop">
         </div>
 
@@ -46,13 +46,11 @@
     </section>
     <!-- end of HOSTING SECTION -->
 
-
-
-    <!-- FOOTER -->
 <?php 
     snippet('subscribes/subscribe'); 
     snippet('footer'); 
 ?>
 
+    
   </body>
 </html>

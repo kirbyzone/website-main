@@ -21,7 +21,8 @@
         "php": ">=7.4.0 <8.2.0",
         "getkirby/cms": "^3.6",
         "omz13/kirby3-wellknown": "^0.2.1",
-        "kirbyzone/sendfox": "^1.1"
+        "kirbyzone/sendfox": "^1.1",
+        "rasteiner/k3-pagesdisplay-section": "^0.1.1"
     },
     "scripts": {
         "start": [

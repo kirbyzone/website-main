@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cd9f1e4c202c4493bbc498f0e3fcaa5c",
+    "content-hash": "77e5612ec658f72f9df8a3f1fa9d098d",
     "packages": [
         {
             "name": "claviska/simpleimage",
@@ -649,6 +649,41 @@
                 "source": "https://github.com/php-fig/log/tree/1.1.4"
             },
             "time": "2021-05-03T11:20:27+00:00"
+        },
+        {
+            "name": "rasteiner/k3-pagesdisplay-section",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rasteiner/k3-pagesdisplay-section.git",
+                "reference": "7a94da8dd4f34c6e23263383466213f6f6e318ad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rasteiner/k3-pagesdisplay-section/zipball/7a94da8dd4f34c6e23263383466213f6f6e318ad",
+                "reference": "7a94da8dd4f34c6e23263383466213f6f6e318ad",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.2"
+            },
+            "type": "kirby-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "ISC"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Steiner",
+                    "email": "roman@toastlab.ch"
+                }
+            ],
+            "description": "K3 plugin: display any page list in a section. Any parent, many parents, filtered, don't care.",
+            "support": {
+                "issues": "https://github.com/rasteiner/k3-pagesdisplay-section/issues",
+                "source": "https://github.com/rasteiner/k3-pagesdisplay-section/tree/0.1.1"
+            },
+            "time": "2021-09-27T10:27:14+00:00"
         },
         {
             "name": "symfony/polyfill-intl-idn",
