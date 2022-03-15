@@ -4,15 +4,14 @@
     <!-- STANDARD META -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title><?=$page->title()?></title>
+    <title><?php e($page->pageTitle(),$page->pageTitle(), $page->title())?></title>
     <meta name="description" content="a professional, secure and fully-managed hosting service for your Kirby websites">
 
     <!-- OPENGRAPH META -->
     <meta property="og:url" content="<?=$page->url()?>">
-    <meta property="og:title" content="<?=$page->title()?>">
+    <meta property="og:title" content="<?php e($page->pageTitle(),$page->pageTitle(), $page->title())?>">
     <meta property="og:description" content="<?=$page->page_desc()?>">
-    <meta property="og:image" content="http://kirby.zone/img/socialmedia-preview.png">
+    <meta property="og:image" content="<?=asset('assets/img/socialmedia-preview.png')->url()?>">
     <meta name="twitter:card" content="summary_large_image">
 
     <!-- FAVICONS https://realfavicongenerator.net/ -->
