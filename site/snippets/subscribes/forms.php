@@ -9,7 +9,7 @@
     <input class="formfield !mb-2" type="email" id="email" name="email" placeholder="My Email" required>
     <input type="hidden" name="csrf" value="<?= csrf() ?>">
     <input type="hidden" name="website" value="">
-    <button type="submit" class="bg-cream/80 text-wine text-sm font-bold py-3 px-10 rounded-lg w-32 transition-all duration-300 hover:bg-cream">sign up</button>
+    <button type="submit" class="bg-cream/80 text-wine text-xl font-bold font-cursive py-3 px-10 rounded-lg w-48 transition-all duration-300 hover:bg-cream">sign up</button>
   </form>
 
         
