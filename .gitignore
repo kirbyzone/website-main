@@ -27,6 +27,7 @@ Icon
 /kirby
 /vendor
 /site/plugins/*
+!site/plugins/kirbyzone-extras
 /config.codekit3
 /node_modules
 prepros.config
