@@ -1,10 +1,10 @@
 <?php
     snippet('head');
 ?>
-  <body class="bg-metal text-snow font-sans max-w-full overflow-x-hidden">
+  <body class="bg-metal text-snow font-sans">
 
     <!-- HERO BANNER -->
-    <section id="hero" class="pt-28 pb-12 relative overflow-x-hidden min-h-[450px]">
+    <section id="hero" class="pt-28 pb-12 relative overflow-x-hidden min-h-[475px]">
       <div class="container relative m-auto">
         <h1 class="sr-only"><?=site()->title()?></h1>
         <img src="<?=asset('assets/img/kirbyzone-shape-white.svg')->url()?>" alt="kirbyzone hexagon" class="w-96 absolute -top-24 -right-32 sm:-right-24 md:-right-8 lg:right-8 xl:right-24 2xl:right-36 opacity-5 animate-spin-3xslow pointer-events-none" style="z-index: -10">
