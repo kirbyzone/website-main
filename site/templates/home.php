@@ -4,7 +4,7 @@
   <body class="bg-metal text-snow font-sans">
 
     <!-- HERO BANNER -->
-    <section id="hero" class="pt-28 pb-12 relative overflow-x-hidden min-h-[475px]">
+    <section id="hero" class="pt-28 pb-12 relative overflow-x-hidden min-h-[500px]">
       <div class="container relative m-auto">
         <h1 class="sr-only"><?=site()->title()?></h1>
         <img src="<?=asset('assets/img/kirbyzone-shape-white.svg')->url()?>" alt="kirbyzone hexagon" class="w-96 absolute -top-24 -right-32 sm:-right-24 md:-right-8 lg:right-8 xl:right-24 2xl:right-36 opacity-5 animate-spin-3xslow pointer-events-none" style="z-index: -10">
@@ -25,7 +25,7 @@
     <!-- end of HERO BANNER -->
 
     <!-- HOSTING SECTION -->
-    <section id="hosting" style="overflow-x: hidden">
+    <section id="hosting" class="overflow-x-hidden -mt-24">
       <div class="container m-auto grid grid-cols-1 sm:grid-cols-2 gap-8 p-12 justify-center">
         <div class="max-w-sm justify-self-center sm:justify-self-end">
           <h2 class="text-3xl font-bold"><?=$page->heading()?></h2>
